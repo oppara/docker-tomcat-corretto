@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    container_name: tomcat-corretto
+    image: tomcat-corretto
+    ports:
+      - 8080:8080
